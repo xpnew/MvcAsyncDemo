@@ -1,0 +1,23 @@
+﻿@@model HandleErrorInfo
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+<div>
+    <li>控制器名称   @Model.ActionName</li>
+    <li>控制器名称   @Model.ControllerName</li>
+    <li>@Model.Exception.ToString()</li>
+    <li>@Model.ToString()</li>
+
+    <li>@Model.ToString()</li>
+</div>
+</body>
+</html>
